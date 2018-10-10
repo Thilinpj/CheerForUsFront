@@ -74,7 +74,7 @@ import { ForumComponent } from './forum/forum.component';
     ButtonsModule, WavesModule, IconsModule,
     RouterModule.forRoot([
       {
-        path:'',
+        path:'home',
         component:HomeComponent
 
       },
@@ -153,6 +153,10 @@ import { ForumComponent } from './forum/forum.component';
       {
         path:'article-feed',
         component:ArticleFeedComponent
+      },
+      {
+        path:'forum',
+        component:ForumComponent
       },
     ])
     
