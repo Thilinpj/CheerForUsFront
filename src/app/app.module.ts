@@ -75,7 +75,7 @@ import { ForumComponent } from './forum/forum.component';
     ButtonsModule, WavesModule, IconsModule,
     RouterModule.forRoot([
       {
-        path:'home',
+        path:'',
         component:HomeComponent
 
       },
